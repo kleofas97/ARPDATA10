@@ -9,7 +9,6 @@
 
 
 # upgrade - 2 - bezpieczna zmiana danych w klasach
-# https://www.geeksforgeeks.org/difference-between-attributes-and-properties-in-python/
 # gettery i settery <-- dekorator property
 
 class Calculator:
@@ -22,7 +21,7 @@ class Calculator:
 
     def get_sum(self):
         self.total_number_of_operation += 1
-        Calculator.number_of_all_operation +=1
+        Calculator.number_of_all_operation += 1
         return self.a + self.b
 
     def get_substract(self):

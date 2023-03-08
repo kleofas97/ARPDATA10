@@ -19,9 +19,9 @@ print('Jetem w module calculator')
 if __name__ == "__main__":
     calculator = ex_02_calculator.Calculator(5,6)
     zmienna1 = calculate_sum(1,2)
-    zmienna2 = calculate_substract(5,4)
+    zmienna2 = calculate_substract(5,40)
     wynik_dodawania = calculator.get_sum()
-    calculator = calculate_sum(1,2)
+    calculator = calculate_sum(1,20)
     # zmianna w nowym branchu
     print('Nowy branch juz dziala!')
     print('Zaczynam maina we Wstepie')
