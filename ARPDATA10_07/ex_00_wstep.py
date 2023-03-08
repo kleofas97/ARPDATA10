@@ -22,4 +22,6 @@ if __name__ == "__main__":
     zmienna2 = calculate_substract(5,4)
     wynik_dodawania = calculator.get_sum()
     calculator = calculate_sum(1,2)
+    # zmianna w nowym branchu
+    print('Nowy branch juz dziala!')
     print('Zaczynam maina we Wstepie')
