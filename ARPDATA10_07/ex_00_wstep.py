@@ -3,7 +3,7 @@
 #  2 opcja - swoja nazwa
 # import ARPDATA10_07.ex_02_calculator as calc        # ZALECANE
 # 3 opcja - tylko konkretne funkcje z danego modulu
-from ARPDATA10_07.ex_02_calculator import calculate_sum,calculate_substract  # NIEZALECANE
+# from ARPDATA10_07.ex_02_calculator import calculate_sum,calculate_substract  # NIEZALECANE
 # 4 opcja pobierz caly modul ( caly plik) pod nazwa
 from ARPDATA10_07 import ex_02_calculator             # ZALECANE
 
@@ -17,13 +17,9 @@ print('Jetem w module calculator')
 
 
 if __name__ == "__main__":
-    print('Zaczynam maina w Kalkulatorze')
-    print(calculate_sum(2, 3))
-
-
-
-
-
-if __name__ == "__main__":
+    calculator = ex_02_calculator.Calculator(5,6)
+    zmienna1 = calculate_sum(1,2)
+    zmienna2 = calculate_substract(5,4)
+    wynik_dodawania = calculator.get_sum()
+    calculator = calculate_sum(1,2)
     print('Zaczynam maina we Wstepie')
-    print(ex_02_calculator.calculate_sum(2, 3))
