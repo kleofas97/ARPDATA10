@@ -44,3 +44,5 @@ class Calculator:
     def get_divide(self):
         return self._a / self._b
 
+calc = Calculator(5,6)
+calc.a = 123
